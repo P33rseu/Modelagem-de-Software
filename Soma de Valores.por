@@ -10,7 +10,7 @@ programa {
     limpa()
     escreva("Digite o segundo numero ")
     leia(n2)
-    se(n2 == n1){
+    enquanto(n2 == n1){
       limpa()
       escreva("Digite um numero diferente do primeiro: ")
       leia(n2)
@@ -19,6 +19,6 @@ programa {
     escreva("O valores apresentados foram: " + n1 + " e " + n2)
     inteiro soma = n1 + n2
     escreva("\n")
-    escreva("A soma de ambos é: " + soma)    
+    escreva("A soma de ambos Ã©: " + soma)    
   }
 }
